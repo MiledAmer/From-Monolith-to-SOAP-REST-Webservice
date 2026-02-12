@@ -4,47 +4,8 @@ __pycache__/
 *$py.class
 
 # --- Virtual Environments ---
-# It's common to name them venv, env, or .venv
 venv/
-env/
-.venv/
-.env/
 
 # --- Environment Variables & Secrets ---
-# CRITICAL: Never commit your database passwords!
 .env
 .env.local
-
-# --- Distribution / Build ---
-build/
-dist/
-*.egg-info/
-
-# --- Testing & Coverage (Pytest) ---
-.pytest_cache/
-.coverage
-htmlcov/
-coverage.xml
-*.cover
-
-# --- Database ---
-# Ignore local SQLite databases if you use them for quick testing
-*.sqlite3
-*.db
-
-# Ignore local Postgres data if you mapped a volume inside the project
-postgres_data/
-pgdata/
-
-# --- IDE Settings ---
-# VS Code
-.vscode/
-# PyCharm / IntelliJ
-.idea/
-
-# --- Logs ---
-*.log
-
-# --- System Files ---
-.DS_Store
-Thumbs.db
